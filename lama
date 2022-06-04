@@ -6,8 +6,8 @@ if [[ -n "$1" ]]; then
 		cp ./$0 /usr/bin/
 	else
 		a=$(curl https://laem.fun/short?url=$1 curl -s) 
-		var=${a#*'longUrl":"'}
-		a=${var%'"}'}
+		var=${a#*'{"shortUrl":"'}
+		a=${var%'","long'*}
 		echo "Done! URL - $a"
 	fi
 else
