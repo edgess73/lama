@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -n "$1" ]
+then
+	curl -F'file=@$1' https://laem.fun/upload
+else
+	echo "use llamaf <path to file> to upload (1000 MB max) for 1 week"
+fi
