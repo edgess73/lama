@@ -1,8 +1,12 @@
 #!/bin/bash
+set -a
 
-if [ -n "$1" ]
-then
-	curl https://laem.fun/short?url=$1 curl -s | jq -r '.shortUrl'
+if [[ -n "$1" ]]; then
+	if [[ $1 == "-I" ]]; then
+		cp ./$0 /usr/bin/
+	else
+		curl https://laem.fun/short?url=$1 curl -s | jq -r '.shortUrl'
+	fi
 else
-	echo 'type "lama <url>" to short it!'
+	echo 'Type "lama <url>" to short it(or "lama -I" to install)!'
 fi
