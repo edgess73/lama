@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -n "$1" ]
+then
+	curl https://laem.fun/short?url=$1 curl -s | jq -r '.shortUrl'
+else
+	echo 'type "lama <url>" to short it!'
+fi
