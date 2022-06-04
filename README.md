@@ -8,7 +8,7 @@ https://laem.fun/ cli client made in bash
 ## Installation 
 `git clone https://github.com/edgess73/lama.git`  
 `./lama -I`  
-# llama and llamaf(or lama legacy)
+# llama and llamaf (or lama legacy)
 https://laem.fun cli client made in bash (python installer)
 ## How to use
 `llama <url>`  
