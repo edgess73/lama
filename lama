@@ -3,7 +3,8 @@ set -a
 
 if [[ -n "$1" ]]; then
 	if [[ $1 == "-I" ]]; then
-		cp ./$0 /usr/bin/
+		chmod +x lama
+		cp ./lama /usr/bin/
 	else
 		a=$(curl https://laem.fun/short?url=$1 curl -s) 
 		var=${a#*'{"shortUrl":"'}
