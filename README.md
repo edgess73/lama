@@ -8,5 +8,5 @@ Requrements:
 `bash >= 5`  
 `git any version`  
 To install:  
-`git clone https://github.com/edgess73/lama.git`
+`git clone https://github.com/edgess73/lama.git`  
 `python3 li.py`  
