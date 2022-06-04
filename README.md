@@ -7,6 +7,6 @@ Requrements:
 `bash => 5`  
 `curl`  
 To install:  
-`git clone https://github.com/edgess73/lama.git
-./lama -I`    
+`git clone https://github.com/edgess73/lama.git`
 
+`./lama -I`
