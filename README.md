@@ -12,7 +12,7 @@ https://laem.fun/ cli client made in bash
 https://laem.fun cli client made in bash (python installer)
 ## How to use
 `llama <url>`  
-`llamaf <file>`  
+Don't use llamaf, it doesn't work
 ## Requrements
 Python 3.9+, bash 5+, git, curl
 ## Installation
